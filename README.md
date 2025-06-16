@@ -20,7 +20,7 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 - Containerization: Docker
 - Documentation: Markdown (README.md)
 
-## Project Roles and Responsibilities
+## Team Roles
 
 ### Backend Developer(Me)
 Responsibilities:
