@@ -177,7 +177,7 @@ TODO: Summarize the relationships in this database, me
 
     Uses GitHub Actions and Docker for testing and deployment automation. This ensures updates are safely and efficiently pushed to production.
 
-### API Security
+## API Security
 
 1. Authentication
    
