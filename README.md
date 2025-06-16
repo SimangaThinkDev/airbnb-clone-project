@@ -214,3 +214,21 @@ TODO: Summarize the relationships in this database, me
       All data is transmitted over secure HTTPS connections.
       - This prevents sensitive data from being intercepted during transmission.
 
+
+## CI/CD Pipeline
+CI/CD (Continuous Integration and Continuous Deployment) is a process that automates building, testing, and deploying code changes. It helps teams deliver updates quickly and reliably.
+
+- Continuous Integration (CI): Automatically runs tests when code is pushed to the repository, ensuring it works as expected.
+
+- Continuous Deployment (CD): Automatically deploys code to production after it passes tests.
+
+~ Why It’s Important
+
+- Catches bugs early through automated testing.
+- Speeds up development by reducing manual steps.
+- Ensures consistent and reliable deployments.
+
+~ Tools Used
+
+- GitHub Actions: Automates testing and deployment workflows.
+- Docker: Packages the app with all its dependencies for consistent environments.
