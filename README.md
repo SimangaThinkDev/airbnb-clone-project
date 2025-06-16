@@ -176,3 +176,41 @@ TODO: Summarize the relationships in this database, me
 8. CI/CD Integration:
 
     Uses GitHub Actions and Docker for testing and deployment automation. This ensures updates are safely and efficiently pushed to production.
+
+### API Security
+
+1. Authentication
+   
+      Only registered users can log in and access their accounts.
+      - This protects user data from unauthorized access.
+
+2. Authorization
+
+      Controls what actions a user can perform (e.g., only hosts can add properties).
+      - This prevents users from doing things they shouldn’t, like deleting others’ listings.
+
+3. Input Validation & Sanitization
+
+      Checks and cleans all user inputs.
+      - This helps prevent attacks like SQL injection and cross-site scripting (XSS).
+
+4. Rate Limiting
+
+      Limits how many requests a user or IP can make in a short time.
+      - This protects the system from abuse and brute-force attacks.
+
+5. Secure Payments
+
+      Handles all booking payments through safe and encrypted channels.
+      - This ensures users’ financial data is protected.
+
+6. Password Hashing
+
+      Stores passwords in a hashed format instead of plain text.
+      - This keeps user credentials safe even if the database is exposed.
+
+7. HTTPS Enforcement
+
+      All data is transmitted over secure HTTPS connections.
+      - This prevents sensitive data from being intercepted during transmission.
+
