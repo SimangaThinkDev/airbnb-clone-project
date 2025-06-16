@@ -42,9 +42,9 @@ Responsibilities:
 
 ### DevOps Engineer
 Responsibilities:
-Set up and manage CI/CD pipelines using GitHub Actions.
-Containerize the application using Docker and orchestrate deployments.
-Monitor infrastructure performance and automate deployment workflows.
+- Set up and manage CI/CD pipelines using GitHub Actions.
+- Containerize the application using Docker and orchestrate deployments.
+- Monitor infrastructure performance and automate deployment workflows.
 
 ###  Documentation Specialist
 Responsibilities:
